@@ -1,4 +1,13 @@
 {
+  "homepage": "https://bloodxsr.github.io/portfolio_version-2",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    ...
+  }
+}
+
+{
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
